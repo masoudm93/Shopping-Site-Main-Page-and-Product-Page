@@ -1,0 +1,239 @@
+/* Shipping Section Styles Start */
+.shipping-wrapper img {
+  width: 30px;
+  height: 30px;
+  margin: 2px 0 0 12px;
+}
+
+.shipping-wrapper span {
+  font-size: 10px;
+}
+
+.shipping-wrapper div {
+  padding: 14px;
+}
+
+/* Shipping Section Styles end */
+
+/* Category Section Styles start */
+.cat-desc p {
+  font-size: 13px;
+}
+
+.custom-image {
+  width: 80px;
+  height: 80px;
+}
+
+.cat-hover {
+  transition: 0.5s ease;
+}
+
+.cat-hover:hover {
+  z-index: 1;
+  box-shadow: 0 0 7px 1px #ccc;
+}
+
+/* Category Section Styles end */
+
+/* Offers Section Styles Start */
+.custom-nav-tabs .nav-link {
+  border: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  font-size: 15px;
+  color: rgb(56, 56, 56);
+}
+
+.custom-nav-tabs .nav-link.active,
+.custom-nav-tabs .nav-item.show .nav-link {
+  color: rgb(75, 75, 255);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.custom-nav-tabs .nav-link:hover,
+.custom-nav-tabs .nav-link:focus {
+  border-color: transparent;
+}
+
+.offer-details {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.offer-details a {
+  font-size: 16px;
+  color: #7268ff;
+}
+
+.offer-details .offer-rating i {
+  color: #caca14;
+  font-size: 14px;
+}
+
+.offer-details .offer-price s {
+  color: red;
+  font-size: 16px;
+}
+
+.offer-details .offer-price span,
+.offer-details .count-down-timer {
+  font-size: 16px;
+  color: #3b3b3b;
+}
+
+.offer-details .count-down-timer {
+  font-size: 17px;
+}
+
+.offer-details .count-down-timer #demo span {
+  background-color: #efefef;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 100%;
+  font-size: 14px;
+}
+
+/* .offer-details .count-down-timer #demo #day, .offer-details .count-down-timer #demo #hours, .offer-details .count-down-timer #demo #minutes, .offer-details .count-down-timer #demo #seconds{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.offer-expire-text {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.offer-expire-text .offer-expire-text-inner {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.offer-product-image {
+  height: 240px;
+  overflow: hidden;
+}
+
+.offer-product-image img {
+  width: 240px;
+}
+
+.offer-product-image:hover .first-img,
+.offer-product-image:hover .second-img {
+  transform: translateY(-240px);
+}
+
+.offer-product-image .first-img,
+.offer-product-image .second-img {
+  transition: 0.5s ease;
+}
+
+.s-o-box-shadow {
+  box-shadow: 0 0 1px 1px #efefef;
+  z-index: 1;
+}
+
+.offer-section-title {
+  left: 0px;
+  border-bottom: 2px solid blue;
+  padding-bottom: 2px;
+  font-size: 18px;
+  top: 6px;
+}
+
+/* Offers Section Styles end */
+
+
+/* start Products */
+.p-title,
+.p-price {
+  font-size: 14px;
+  color: #3c3b3b;
+}
+
+.p-img {
+  max-width: 175px;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 0;
+}
+
+.custom-card:hover {
+  box-shadow: 0 0 10px 1px #efefef;
+}
+
+.owl-carousel .owl-nav {
+  position: absolute;
+}
+
+
+.owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: -206px;
+  left: -1111px;
+  outline: none;
+}
+
+
+.owl-carousel .owl-nav .owl-next span,
+.owl-carousel .owl-nav .owl-prev span {
+  display: block;
+  font-size: 66px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0 5px 4px #efefef;
+}
+
+.owl-carousel .owl-nav .owl-next {
+  width: 35px;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  width: 35px;
+  top: -206px;
+  font-size: 60px;
+  outline: none;
+}
+
+.product-section-title {
+  right: 0;
+  border-bottom: 2px solid blue;
+  padding-bottom: 1px;
+  font-size: 17px;
+  top: 17px;
+  margin-right: 16px;
+}
+
+/* end Products */
+
+
+/* start banner1 */
+.banner-section-1 .banner-img-hover {
+  overflow: hidden;
+}
+
+.banner-section-1 .banner-img-hover img {
+  transition: 2s ease;
+}
+
+.banner-section-1 .banner-img-hover:hover img {
+  transform: scale(1.1);
+}
+/* end banner1 */
+
+
+/* start brands */
+.owl-carousel-brand .owl-nav {
+  top: 263px !important;
+}
+/* start brands */

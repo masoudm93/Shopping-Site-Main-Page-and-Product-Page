@@ -1,0 +1,160 @@
+.custom-breadcrumb {
+  margin: 0;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+}
+
+.product-page-rate {
+  color: gold;
+  font-size: 18px;
+}
+
+.product-page-rate span {
+  color: rgb(44, 44, 44);
+  font-size: 16px;
+}
+
+.product-page-price {
+  font-size: 18px;
+}
+
+.product-page-price span {
+  color: rgb(214, 27, 27);
+}
+
+h1.product-page-title {
+  font-size: 23px;
+}
+
+p.describe {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.product-page-title .fa-heart {
+  color: rgb(214, 27, 27);
+}
+
+.product-page-title .fa-bell,
+.product-page-title .fa-share-alt {
+  color: rgb(61, 61, 61);
+}
+
+.p-benefits {
+  font-size: 16px;
+}
+
+div.brand-cat {
+  font-size: 15px;
+}
+
+.benefit-list li a i {
+  font-size: 10px;
+  color: rgba(8, 182, 17, 0.993);
+}
+
+.custom-nav-tabs-product-page .nav-link.active,
+.custom-nav-tabs-product-page .nav-item.show .nav-link {
+  border-top: 3px solid rgb(40, 108, 255);
+}
+
+.custom-nav-tabs-product-page .nav-link {
+  font-size: 15px;
+}
+
+.custom-tab-pane-product h5,
+.custom-tab-pane-product-details h5 {
+  color: #848181;
+}
+
+.custom-tab-pane-product .product-desc {
+  font-size: 15px;
+  line-height: 35px;
+  background-color: #fbfbfb;
+}
+
+.product-quality-rate p {
+  font-size: 15px;
+}
+
+.product-progress-wrapper {
+  background-color: #fbfbfb;
+}
+
+.describe-custom {
+  font-size: 15px;
+}
+
+.custom-img {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.custom-tab-pane-product-details ul li .key {
+  color: #8d8d8d;
+  flex: 0 0 20%;
+  font-size: 15px;
+}
+
+.custom-tab-pane-product-details ul li .value {
+  flex: 0 0 78%;
+  font-size: 16px;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 10px;
+}
+
+.custom-tab-pane-product-details ul li {
+  margin-right: 140px;
+
+}
+
+.custom-tab-pane-product-details ul #p {
+  margin: 0 30px 25px 0;
+  border-right: 3px solid rgb(40, 108, 255);
+  padding-right: 5px;
+}
+
+.add-comments p:first-child {
+  font-size: 18px;
+  color: #505050;
+}
+
+.add-comments p:nth-child(2) {
+  color: #505050;
+}
+
+.add-comments a i {
+  vertical-align: -3px;
+}
+
+.custom-media-product h5 {
+  font-size: 15px;
+}
+
+
+.custom-advantage-disadvantage span,
+.custom-advantage-disadvantage li {
+  font-size: 13px;
+}
+
+.add-comments {
+  border-top: 2px solid #efefef;
+}
+
+.add-comments p {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.add-comments p i {
+  font-size: 35px;
+  vertical-align: -5px;
+}
+
+footer {
+  margin-top: 150px;
+}

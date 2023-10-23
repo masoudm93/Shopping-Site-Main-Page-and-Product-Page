@@ -1,0 +1,125 @@
+.bg-top-nav {
+  background-color: #232f3e;
+  color: #fff;
+}
+
+.custom-top-nav,
+.bg-top-nav p {
+  font-size: 14px;
+}
+
+.custom-top-nav a {
+  padding: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.custom-top-nav .border-left {
+  border-color: #4a4a4a !important;
+}
+
+.custom-btn-font-size {
+  font-size: 14px;
+}
+
+.shop-card {
+  background: transparent;
+}
+
+.shop-card span {
+  font-size: 16px;
+}
+
+.shop-card i {
+  vertical-align: -2px;
+}
+
+.custom-dropdown-toggle::after {
+  vertical-align: 0;
+}
+
+.basket {
+  width: 300px !important;
+}
+
+.basket a {
+  font-size: 14px;
+}
+
+.basket a img {
+  width: 64px;
+  height: 64px;
+}
+
+.custom-navbar-nav {
+  font-size: 15px;
+}
+
+.custom-navbar-nav .nav-item {
+  position: unset;
+}
+
+.custom-navbar-nav .nav-item .dropdown-menu {
+  color: #fff;
+  border-radius: 0;
+  top: 54px;
+}
+
+.dropdown-image img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.dropdown-image ul.nav li a {
+  color: #000 !important;
+  font-size: 16px;
+}
+
+.dropdown-image ul.nav li a i {
+  vertical-align: -2px;
+}
+
+.dropdown-image ul.nav li a {
+  transition: 0.5s ease;
+}
+
+.dropdown-image ul.nav li a:hover {
+  margin-right: 7px;
+  color: rgb(56, 136, 255) !important;
+}
+
+.custom-navbar-toggler {
+  border: none;
+}
+
+.r-menu {
+  right: 0;
+}
+
+.input-top-nav-search::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+.login-form input[type=email],
+.login-form input[type=password] {
+  border: none;
+  border-bottom: 2px solid #efefef;
+  border-radius: 0;
+}
+
+.login-form label {
+  font-size: 14px;
+}
+
+#login-form h5 {
+  font-size: 18px;
+}
+
+#login-form .modal-footer a {
+  font-size: 15px;
+}

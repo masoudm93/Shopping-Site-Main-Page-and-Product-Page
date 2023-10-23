@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>صفحه محصول</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- For bootstrap RTL -->
+  <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css"
+    integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../assets/css/Product-page.css" />
+  <link rel="stylesheet" href="../assets/css/P1.css" />
+  <link rel="stylesheet" href="../assets/css/P2.css" />
+  <link rel="stylesheet" href="../assets/css/P3.css" />
+  <link rel="stylesheet" href="../assets/css/zoomy.css">
+  <link rel="stylesheet" href="../assets/css/owl.carousel.css" />
+  <link rel="stylesheet" href="../assets/css/owl.theme.default.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+
+</head>
+
+<body class="bg-light">
+  <!-- start Menu -->
+  <div class="container-fluid bg-top-nav">
+    <div class="row">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-6 d-none d-md-block">
+            <p class="text-white">ارسال رایگان-ضمانت بازگشت وجه 30 روزه</p>
+          </div>
+          <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+            <nav class="nav custom-top-nav">
+              <a class="nav-link text-white border-left" href="#">آدرس فروشگاه</a>
+              <a class="nav-link text-white border-left" href="#">پیگیری سفارشات</a>
+              <a class="nav-link text-white border-left" href="#">تلفن: 09101010210</a>
+              <a class="nav-link text-white border-left" href="#">ضمانت کیفیت کالا</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-sm-12 col-md-9">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <button class="btn btn-secondary dropdown-toggle custom-btn-font-size" type="button"
+                  data-toggle="dropdown">دسته بندی محصولات</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">موبایل</a>
+                  <a class="dropdown-item" href="#">کامپیوتر</a>
+                  <a class="dropdown-item" href="#">پوشاک</a>
+                  <a class="dropdown-item" href="#">لوازم خانگی</a>
+                </div>
+              </div>
+              <input type="text" class="form-control input-top-nav-search" aria-label="Text input with dropdown button"
+                placeholder="جستجو بین کالاهای موجود...">
+              <div class="input-group-append">
+                <button class="btn btn-primary custom-btn-font-size" type="button">جستجو</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3 d-flex justify-content-center align-items-center">
+            <div class="dropdown">
+              <a class="btn btn-link text-decoration-none text-white dropdown-toggle custom-dropdown-toggle border-0 shop-card"
+                href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"><span class="mr-2">سبد خرید</span>
+                <i class="fa-solid fa-cart-shopping"></i> </a>
+
+              <div class="dropdown-menu basket">
+                <a class="dropdown-item p-1 d-flex justify-content-around" href="#">
+                  <img class="img-thumbnail" src="../assets/img/1.jpg" alt="">
+                  <ul>
+                    <li>گوشی موبایل اپل</li>
+                    <li>iphone 13 CH</li>
+                    <li>42.500.000 تومان</li>
+                  </ul>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </a>
+                <a class="dropdown-item p-1 d-flex justify-content-around" href="#">
+                  <img class="img-thumbnail" src="../assets/img/2.jpg" alt="">
+                  <ul>
+                    <li>اپل واچ</li>
+                    <li>Alpin Loop</li>
+                    <li>42.500.000 تومان</li>
+                  </ul>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </a>
+                <a class="dropdown-item p-1 d-flex justify-content-around" href="#">
+                  <img class="img-thumbnail" src="../assets/img/3.jpg" alt="">
+                  <ul>
+                    <li>هدفون بیسیم</li>
+                    <li>K77</li>
+                    <li>1.000.000 تومان</li>
+                  </ul>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="w-100 position-relative">
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-xl navbar-dark custom-navbar d-flex justify-content-between w-100">
+              <a class="navbar-brand mr-2" href="#">فروشگاه</a>
+              <button class="navbar-toggler custom-navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav custom-navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">خانه</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown">
+                      موبایل
+                    </a>
+                    <div class="dropdown-menu w-100 dropdown-image border-0 shadow r-menu"
+                      aria-labelledby="navbarDropdown">
+                      <img src="../assets/img/4.jpg" class="d-none d-xl-block" alt="">
+                      <div class="container">
+                        <div class="row w-100">
+                          <div class="col-sm-12 col-md-12 col-lg-3">
+                            <ul class="nav flex-column pl-3">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#"><i class="fas fa-angle-left"></i> اپل</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> سامسونگ</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> شیائومی</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> گوگل</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> موتورولا</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> الجی</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> بلک بری</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-12 col-md-12 col-lg-3">
+                            <ul class="nav flex-column pl-3">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#"><i class="fas fa-angle-left"></i> اپل</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> سامسونگ</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> شیائومی</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> گوگل</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> موتورولا</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> الجی</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-angle-left"></i> بلک بری</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown">
+                      کامپیوتر
+                    </a>
+                    <div class="dropdown-menu w-100 r-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown">
+                      لوازم خانگی
+                    </a>
+                    <div class="dropdown-menu w-100 r-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown">
+                      پوشاک
+                    </a>
+                    <div class="dropdown-menu w-100 r-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">درباره ما</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">تماس با ما</a>
+                  </li>
+                </ul>
+                <a href="" class="btn text-white btn-primary rounded text-decoration-none" data-toggle="modal"
+                  data-target="#login-form"><i class="far fa-user"><span> ورود/ثبت
+                      نام</span></i></a>
+                <div class="modal fade" id="login-form" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered text-dark" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header border-0">
+                        <h5 class="modal-title text-center w-100" id="exampleModalLabel">ورود به سایت</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form class="login-form">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">آدرس ایمیل</label>
+                            <input type="email" class="form-control form-control-sm" id="exampleInputEmail1"
+                              placeholder="example@mail.com">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">کلمه عبور</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                              placeholder="Password">
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="exampleCheck1">
+                            <label class="custom-control-label mb-3" for="exampleCheck1">مرا به خاطر بسپار</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary btn-sm btn-block">ورود</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer border-0 d-flex justify-content-around">
+                        <a class="text-decoration-none" href="">رمز خود را فراموش کرده اید؟</a>
+                        <a class="text-decoration-none" href="">عضویت در سایت</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- end Menu -->
+
+
+
+  <!-- start Product-page -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-sm-12 bg-white">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb custom-breadcrumb">
+            <li class="breadcrumb-item"><a href="#" class="text-decoration-none">خانه</a></li>
+            <li class="breadcrumb-item active" aria-current="page">گوشی موبایل</li>
+          </ol>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container bg-white mt-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-5 border-left" id="el">
+        <img class="img-fluid mt-4" src="../assets/img/17.jpg" alt="">
+      </div>
+      <div class="col-sm-12 col-md-7">
+        <h1 class=" product-page-title mt-4 d-flex justify-content-between"> <span>آیفون 13CH</span> <span><a
+              href="#"><i class="far fa-heart mr-2"></i></a><a href="#"><i class="fas fa-share-alt ml-2"></i></a><a
+              href="#"><i class="far fa-bell"></i></a></span></h1>
+        <div class="offer-rating product-page-rate mt-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="mr-3">(پیشنهاد
+            کاربران برای این کالا)</span></div>
+        <div class="offer-price product-page-price mt-3"><s class="mr-3">80.000.000 تومان</s><span>75.000.000
+            تومان</span></div>
+        <!-- <p class="describe mt-5 pb-5 border-bottom">
+          گوشی موبایل iPhone 13 CH پرچم‌دار جدید شرکت اپل است که با چند ویژگی جدید و دوربین دوگانه روانه بازار شده است.
+          نمایشگر
+          آیفون 13 به پنل Super Retina مجهز ‌شده است تا تصاویر بسیار مطلوبی را به کاربر عرضه کند. این نمایشگر رزولوشن
+          بسیار بالایی
+          دارد؛ به‌طوری‌که در اندازه­‌ی 6.1 اینچی‌اش، حدود 460 پیکسل را در هر اینچ جا داده است. امکان شارژ بی‌‌سیم باتری
+          در این
+          گوشی وجود دارد. تشخیص چهره با استفاده از دوربین جلو دیگر ویژگی است که در آیفون جدید اپل به کار گرفته شده است.
+          از نظر
+          سخت‌‌افزاری این گوشی از تراشه­‌ی جدید A15 بهره می‌برد که دارای 15 میلیارد ترانزیستور است که دارای کنترل گرمای
+          مطلوبی
+          بوده که تا بتواند علاوه بر کارهای معمول، از قابلیت‌های جدید واقعیت مجازی که اپل این روزها روی آن تمرکز خاصی
+          دارد،
+          پشتیبانی کند. به گفته خود شرکت اپل این گوشی دارای سرعتی 50 برابر نسخه 12 خود است. پردازنده دارای ماژولار جدیدی
+          است که
+          مصرف باتری را بسیار پایین‌تر آورده است و شما دارای حفظ باتری بالاتری هستید. اپل در این سری از گوشی‌های iPhone
+          خود
+          پردازنده گرافیکی‌ای را قرار داده که از سری 12 گوشی‌های خود 30 درصد سریع‌تر است و این نویدبخش آن است که شما
+          می‌توانید
+          بازی‌هایی را با گرافیک و MAP سنگین تر و بزرگ‌تر اجرا کنید. یکی از ویژگی‌هایی که در iPhone 13 شاهد هستیم سیستم
+          فیلمبرداری
+          ProRes سینمایی آن است که می تواند انقلابی در فیلمبرداری گوشی‌های موبایل به‌راه انداخته باشد. گوشی‌های نات
+          اکتیو با قرار
+          گرفتن سیم‌کارت‌های داخلی اکتیو می‌شوند و برخلاف مدل اکتیو پلمپ کالا باز نشده است. گوشی‌های اکتیو برند اپل هم
+          به این شکل
+          هستند که به دلیل محدودیت‌های برخی از محصولات اپل برای کشور ایران، در کشور‌های همسایه به‌صورت رسمی با یک بار
+          قرار گرفتن
+          سیم‌کارت، اکتیو شده و پلمپ می‌شوند و باید بدانید که این پروسه هیچ مشکلی در راستای گارانتی کالا به‌همراه ندارد.
+          پارت‌نامبر‌های اروپا و ژاپن و امارات تک سیم‌کارت هستند و پارت‌نامبر‌های مربوط به امارات هم از فیس تایم
+          پشتیبانی
+          نمی‌کنند. پارت‌نامبر JA (ژاپن) هم حتی در حالت سایلنت صدای شاتر عکس قطع نمی‌شود.
+        </p> -->
+
+        <div class="brand-cat my-5 d-flex justify-content-between"><span>برند: اپل</span><span>دسته بندی: <span
+              class="badge pill-badge badge-primary">کالای دیجیتال</span> <span
+              class="badge pill-badge badge-primary">گوشی موبایل</span></span></div>
+        <p class="my-3 p-benefits">ویژگی های محصول</p>
+        <ul class="nav flex-column footer-nav-custom benefit-list my-3 pl-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-dot-circle"></i> کیفیت نمایشگر بالا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-dot-circle"></i> پردازنده نسل جدید اپل</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-dot-circle"></i> دوربین سلفی قوی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-dot-circle"></i> باتری قوی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-dot-circle"></i> طراحی بی نظیر</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-dot-circle"></i> مقاوم در برابر آب</a>
+          </li>
+        </ul>
+        <form action="">
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-1 col-form-label">تعداد</label>
+            <div class="col-sm-2">
+              <input type="text" class="form-control" id="staticEmail" value="1">
+            </div>
+            <div class="col-sm-2">
+              <button type="submit" class="btn btn-success mb-2">افزودن به سبد خرید</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+    <div class="row" style="margin-top: 100px;">
+      <div class="col-sm-12">
+        <ul class="nav nav-tabs custom-nav-tabs-product-page" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active rounded-0" id="home-tab" data-toggle="tab" href="#home" role="tab"
+              aria-controls="home" aria-selected="true">معرفی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-0" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+              aria-controls="profile" aria-selected="false">بررسی تخصصی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-0" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+              aria-controls="contact" aria-selected="false">مشخصات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments"
+              aria-selected="false">نظرات کاربران</a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active custom-tab-pane-product fade" id="home" role="tabpanel"
+            aria-labelledby="home-tab">
+            <h5 class="p-3">معرفی کلی</h5>
+            <p class="product-desc p-3 m-3">iPhone 13 CH پرچم‌دار جدید شرکت اپل است که با چند ویژگی جدید و دوربین
+              دوگانه روانه بازار شده است.
+              نمایشگر
+              آیفون 13 به پنل Super Retina مجهز ‌شده است تا تصاویر بسیار مطلوبی را به کاربر عرضه کند. این نمایشگر
+              رزولوشن بسیار بالایی
+              دارد؛ به‌طوری‌که در اندازه­‌ی 6.1 اینچی‌اش، حدود 460 پیکسل را در هر اینچ جا داده است. امکان شارژ بی‌‌سیم
+              باتری در این
+              گوشی وجود دارد. تشخیص چهره با استفاده از دوربین جلو دیگر ویژگی است که در آیفون جدید اپل به کار گرفته شده
+              است. از نظر
+              سخت‌‌افزاری این گوشی از تراشه­‌ی جدید A15 بهره می‌برد که دارای 15 میلیارد ترانزیستور است که دارای کنترل
+              گرمای مطلوبی
+              بوده که تا بتواند علاوه بر کارهای معمول، از قابلیت‌های جدید واقعیت مجازی که اپل این روزها روی آن تمرکز
+              خاصی دارد،
+              پشتیبانی کند. به گفته خود شرکت اپل این گوشی دارای سرعتی 50 برابر نسخه 12 خود است. پردازنده دارای ماژولار
+              جدیدی است که
+              مصرف باتری را بسیار پایین‌تر آورده است و شما دارای حفظ باتری بالاتری هستید. اپل در این سری از گوشی‌های
+              iPhone خود
+              پردازنده گرافیکی‌ای را قرار داده که از سری 12 گوشی‌های خود 30 درصد سریع‌تر است و این نویدبخش آن است که
+              شما
+              می‌توانید
+              بازی‌هایی را با گرافیک و MAP سنگین تر و بزرگ‌تر اجرا کنید. یکی از ویژگی‌هایی که در iPhone 13 شاهد هستیم
+              سیستم فیلمبرداری
+              ProRes سینمایی آن است که می تواند انقلابی در فیلمبرداری گوشی‌های موبایل به‌راه انداخته باشد. گوشی‌های
+              نات
+              اکتیو با قرار
+              گرفتن سیم‌کارت‌های داخلی اکتیو می‌شوند و برخلاف مدل اکتیو پلمپ کالا باز نشده است. گوشی‌های اکتیو برند
+              اپل
+              هم به این شکل
+              هستند که به دلیل محدودیت‌های برخی از محصولات اپل برای کشور ایران، در کشور‌های همسایه به‌صورت رسمی با یک
+              بار قرار گرفتن
+              سیم‌کارت، اکتیو شده و پلمپ می‌شوند و باید بدانید که این پروسه هیچ مشکلی در راستای گارانتی کالا به‌همراه
+              ندارد.
+              پارت‌نامبر‌های اروپا و ژاپن و امارات تک سیم‌کارت هستند و پارت‌نامبر‌های مربوط به امارات هم از فیس تایم
+              پشتیبانی
+              نمی‌کنند. پارت‌نامبر JA (ژاپن) هم حتی در حالت سایلنت صدای شاتر عکس قطع نمی‌شود.</p>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-5">
+                  <div class="product-progress-wrapper py-2">
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">گارانتی</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">کیفیت و کارآیی</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">ابعاد یا سایز</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">قیمت و ارزش خرید</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">شباهت یا مغابرت</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <p class="mt-3 p-benefits">نقاط قوت</p>
+                  <ul class="nav flex-column footer-nav-custom benefit-list my-3 pl-3">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-plus" style="color: #00a331;"></i> کیفیت
+                        نمایشگر بالا</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-plus" style="color: #00a331;"></i> پردازنده
+                        نسل جدید اپل</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-plus" style="color: #00a331;"></i> دوربین
+                        سلفی قوی</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-plus" style="color: #00a331;"></i> باتری
+                        قوی</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-plus" style="color: #00a331;"></i> طراحی بی
+                        نظیر</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-plus" style="color: #00a331;"></i> مقاوم در
+                        برابر آب</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                  <p class="mt-3 p-benefits">نقاط ضعف</p>
+                  <ul class="nav flex-column footer-nav-custom benefit-list my-3 pl-3">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-minus" style="color: #ff0000;"></i> صفحه
+                        نمایش کوچک</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-minus" style="color: #ff0000;"></i> طراحی
+                        تکراری</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade custom-tab-pane-product" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="container border-bottom mb-3">
+              <div class="row">
+                <div class="col-sm-12 col-md-8">
+                  <h5 class="p-3 my-4">معرفی</h5>
+                  <p class="describe">گوشی‌های هوشمند خانواده آیفون 13 در قالب چهار گوشی آیفون 13 پرو مکس، آیفون 13
+                    پرو، آیفون 13 و آیفون
+                    13 مینی معرفی شدند.
+                    بدون شک دو مدل پرو و پرو مکس به عنوان پرچمداران این شرکت از مشخصات فنی قدرتمند‌تری بهره برده‌اند.
+                    اما در این میان
+                    آیفون
+                    13 به همراه مدل مینی با قیمتی مقرون‌به‌صرفه‌تر روانه بازار شده‌اند تا امکان خرید برای کاربران
+                    بیشتری امکان‌پذیر باشد.
+                    در
+                    این مقاله خواهیم دید که آیفون 13 به نسبت نسل قبلی چه مشخصاتی با خود به‌همراه داشته و در بخش‌های
+                    مختلف چه عملکردی را از
+                    خودش به‌نمایش می‌گذارد. شاید با توجه به مشخصات تقریبا مشابه آیفون 13 و آیفون 12، این سوال برای شما
+                    به وجود آید که چرا
+                    آیفون 13 می‌تواند عملکرد بهتری داشته باشد. پس با ما همراه باشید تا به دلایل عملکرد بهتر و
+                    قدرتمند‌تر آیفون 13 به نسبت
+                    آیفون 12 پی ببرید.</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <img class="img-fluid float-right p-4" src="../assets/img/100.jpg" alt="">
+
+                </div>
+              </div>
+            </div>
+            <div class="container border-bottom mb-3">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h5 class="p-3">طراحی جذاب</h5>
+                  <p class="describe">گوشی‌های هوشمند خانواده آیفون 13 در قالب چهار گوشی آیفون 13 پرو مکس، آیفون 13
+                    پرو، آیفون 13 و آیفون
+                    13 مینی معرفی شدند.
+                    بدون شک دو مدل پرو و پرو مکس به عنوان پرچمداران این شرکت از مشخصات فنی قدرتمند‌تری بهره برده‌اند.
+                    اما در این میان
+                    آیفون
+                    13 به همراه مدل مینی با قیمتی مقرون‌به‌صرفه‌تر روانه بازار شده‌اند تا امکان خرید برای کاربران
+                    بیشتری امکان‌پذیر باشد.
+                    در
+                    این مقاله خواهیم دید که آیفون 13 به نسبت نسل قبلی چه مشخصاتی با خود به‌همراه داشته و در بخش‌های
+                    مختلف چه عملکردی را از
+                    خودش به‌نمایش می‌گذارد. شاید با توجه به مشخصات تقریبا مشابه آیفون 13 و آیفون 12، این سوال برای شما
+                    به وجود آید که چرا
+                    آیفون 13 می‌تواند عملکرد بهتری داشته باشد. پس با ما همراه باشید تا به دلایل عملکرد بهتر و
+                    قدرتمند‌تر آیفون 13 به نسبت
+                    آیفون 12 پی ببرید.</p>
+                </div>
+                <div class="col-sm-12 d-flex justify-content-center">
+                  <img class="img-fluid my-3" src="../assets/img/101.jpg" alt="">
+                </div>
+                <div class="col-sm-12">
+                  <p class="describe my-5">برای فریم های دور نیز از ساختار آلومینیومی استفاده شده است. وزن 174 گرمی نیز
+                    به
+                    نسبت آیفون 13 پرو
+                    و 13 پرو مکس، وزن
+                    سبک‌تری می باشد که سبب شده تا نه تنها حس و حال یک گوشی پرچمدار و با‌کیفیت را به شما ارائه می‌کند،
+                    بلکه در استفاده‌های
+                    طولانی مدت نیز خستگی برای دستان شما به ارمغان نمی‌آورد. آیفون 13 همانند بسیاری از گوشی‌های هوشمند
+                    این شرکت به لطف بهره
+                    برده از ساختار بسیار با‌کیفیت، توانایی پشتیبانی از استاندارد ضد‌آب IP68 را دارد (توانایی قرار گیری
+                    در عمق 6 متری آب و
+                    مدت زمان 30 دقیقه‌ای).</p>
+                </div>
+              </div>
+            </div>
+            <div class="container border-bottom mb-3">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h5 class="p-3">صفحه نمایش</h5>
+                  <p class="describe my-4">در این بخش نیز باید گفت، آیفون 13 از صفحه‌نمایشی مشابه با آیفون 12 بهره برده
+                    است. صفحه نمایش 6.1 اینچ با رزولوشن
+                    1170×2532 پیکسل از نوع اولد (OLED) با فناوری Super Retina XDR، برای این گوشی‌هوشمند قدرتمند در نظر
+                    گرفته شده است. تراکم
+                    پیکسلی 460ppi در هر اینچ سبب شده تا این صفحه نمایش توانایی ارائه کیفیت تصویر بسیار بالایی را داشته
+                    باشد. محافظ صفحه
+                    Scratch-resistant ceramic glass می‌تواند به‌خوبی از صفحه‌نمایش این گوشی‌هوشمند در برای ضربات و
+                    افتادن‌های احتمالی هم
+                    محافظت کند.</p>
+                </div>
+                <div class="col-sm-12 custom-img">
+                  <img class="img-fluid my-3" src="../assets/img/102.jpg" alt="">
+                </div>
+                <div class="col-sm-12">
+                  <p class="describe my-4">همانطور که می‌دانیم، صفحات‌نمایش دو مدل آیفون 13 پرو و 13 پرو مکس توانایی
+                    ارائه
+                    اولین نرخ بروزرسانی 120 هرتز را دارند.
+                    این اولین بار در تاریخ گوشی‌های هوشمند اپل است که چنین صفحه‌نمایشی را شاهد هستیم. اما آیفون 13 و
+                    آیفون 13 مینی همانند
+                    پرچمداران نسل‌های قبلی، توانایی ارائه نرخ بروزرسانی 60 هرتز را دارند. از نظر میزان روشنایی هم این
+                    صفحه‌نمایش توانایی
+                    ارائه حداکثر روشنایی 1200 نیت (شمع در متر مربع) را دارد. بهره بردن از چنین میزان روشنایی سبب شده
+                    تا در شرایط نوری متنوع
+                    و حتی تابش مستقیم نور خورشید هم شاهد وضوح تصویر بسیار بالا و با‌کیفیتی از صفحه‌نمایش آیفون 13
+                    باشیم.</p>
+
+                  <img class="img-fluid" src="../assets/img/103.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="container border-bottom mb-3">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h5 class="p-3">دوربین</h5>
+                  <p class="describe">شاید در نگاه اول و بر روی کاغذ، سنسور‌های دوربین در نظر گرفته شده برای آیفون13
+                    چندان تفاوتی با سنسور‌های دوربین آیفون 12
+                    نداشته باشند، اما بدون شک آیفون 13 می‌تواند در این بخش عملکرد بهتری به نسبت مدل آیفون 12 داشته
+                    باشد. شاید از خودتان
+                    بپرسید که چرا؟ در ادامه به شما خواهیم گفت. در ابتدا نگاهی به مشخصات سنسور‌های دوربین در نظر گرفته
+                    شده برای این
+                    گوشی‌هوشمند خواهیم داشت. یک سنسور دوربین اصلی با رزولوشن 12 مگاپیکسل، گشودگی دریچه دیافراگم f/1.6،
+                    فاصله کانونی 26 میلی
+                    متر از نوع عریض به‌همراه سنسور دوربین از نوع فوق عریض (ultra wide) با رزولوشن 12 مگاپیکسل، گشودگی
+                    دریچه دیافراگم f/2.4،
+                    زاویه دید 120 درجه و فاصله کانونی 13 میلی‌متر، سنسور‌های دوربین دوگانه آیفون 13 را تشکیل می‌دهند.
+                    برای دوربین سلفی نیز،
+                    سنسور 12 مگاپیکسل از نوع عریض با گشودگی دریچه دیافراگم f/2.2 در نظر گرفته شده که توانایی ضبط ویدیو
+                    با کیفیت 4K و نرخ 60
+                    فریم در ثانیه را هم دارد. اما چرا آیفون 13 با بهره بردن از سنسور‌های دوربین مشابه با آیفون 12
+                    می‌تواند خروجی تصاویر
+                    با‌کیفیت‌تری را ارائه دهد؟ دلیل اصلی این اتفاق، پردازنده قدرتمند‌تر در نظر گرفته شده برای آیفون 13
+                    است. یکی از اصلی ترین
+                    دلایل برای خروجی تصاویر بهتر، پردازنده تصویری یا همان ISP است که یکی از بخش‌های پردازنده است. پس
+                    به‌طبع بهره بردن از
+                    پردازنده قدرتمند‌تر، خروجی تصاویر با‌کیفیت‌تری را ارائه می‌کند. عملکرد سنسور دوربین اصلی 12
+                    مگاپیکسلی در نور روز جای هیچ
+                    حرف و حدیثی را باقی نگذاشته است. داینامیک رنج بسیار جذاب، جزئیات عالی و کنتراست بسیار جذاب در
+                    تصاویر خروجی ثبت شده
+                    به‌خوبی دیده می‌شود. گشودگی دریچه دیافراگم هم جذب نور بسیار خوبی دارد و این نشان از عملکرد عالی
+                    این گوشی هوشمند در ثبت
+                    تصاویر شب یا در نور کم دارد. سنسور دوربین فوق عریض نیز با زاویه دید گسترده‌تر به نسبت سنسور دوربین
+                    اصلی، این امکان را
+                    برای شما فراهم می‌کند که تصاویری با زاویه دید باز و بسیار جذاب (برای مثال عکاسی در طبیعت و عکس‌های
+                    گروهی) به ثبت
+                    برسانید.</p>
+                </div>
+                <div class="col-sm-12 custom-img">
+                  <img class="img-fluid my-3" src="../assets/img/104.jpg" alt="">
+                </div>
+                <div class="col-sm-12">
+                  <p class="describe mb-2">اما پرچمداران اپل همواره در زمینه ضبط ویدیو حرف‌های بسیاری برای گفتن داشتند
+                    و هنوز هم هیچ‌کدام از رقبای اندرویدی این
+                    شرکت، نتوانسته‌اند عملکرد بهتری به نسبت پرچمداران اپل در زمینه فیلمبرداری داشته باشند. سنسور
+                    دوربین اصلی این گوشی‌هوشمند
+                    توانایی ضبط ویدیو با حداکثر کیفیت 4K و نرخ 60 فریم در ثانیه را دارد. این سنسور دوربین به قابلیت
+                    بسیار جذاب OIS یا همان
+                    لرزشگیر اپتیکال مجهز شده است. قابلیتی که لرزش های ناخواسته هنگام ضبط ویدیو را به‌خوبی حذف می‌کند و
+                    در نهایت خروجی ویدیو
+                    بسیار با‌کیفیتی را به شما ارائه می‌کند. همانند نسل قبلی، سنسور دوربین این گوشی نیز توانایی ضبط
+                    ویدیو سینماتیک را دارد که
+                    بالا‌ترین کیفیت ممکن ضبط ویدیو در میان تمام پرچمداران دنیا است. اما این بار اپل بهبود‌های چشم گیری
+                    را برای بخش
+                    فیلمبرداری این گوشی‌هوشمند در نظر گرفته تا به‌راحتی نیاز‌های یک فیلمبردار حرفه‌ای را نیز برطرف
+                    کند. فوکوس خودکار بسیار
+                    شگفت‌انگیز این دوربین، به لطف هوش مصنوعی یا همان AI، عملکرد بی‌نظیری را از خود به نمایش گذاشته
+                    است. فوکوس خودکار بین
+                    چهره افراد (برای مثال دو نفر در کادر دوربین حضور دارند و فوکوس بر روی چهره نفر جلو‌تر است، به محض
+                    اینکه نفر اول سرش زا
+                    برگرداند و به نفر بعدی نگاه کن، دوربین به‌صورت خودکار بر روی نفر دوم فوکوس می‌کند) یکی از
+                    قابلیت‌های جدید و بسیار جذاب
+                    این گوشی‌هوشمند قدرتمند است.</p>
+
+                  <img class="img-fluid" src="../assets/img/105.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="container border-bottom mb-3">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h5 class="p-3">پردازنده‌ای بی‌رقیب و باتری قدرتمند‌تر</h5>
+                  <p class="describe-custom">باید قبول کنیم که تا به امروز، پردازنده‌های قدرتمند گوشی‌های هوشمند اپل
+                    در کنار سیستم عامل بی‌نظیر iOS توانسته اند
+                    عملکرد بسیار شگفت‌انگیزی را به نمایش بگذارند. این بار هم آیفون 13 همانند برادران بزرگترش، یعنی
+                    آیفون 13 پرو وآیفون 13
+                    پرو مکس، به قدرتمند‌ترین پردازنده این شرکت یعنیُ A15 بایونیک مجهز شده است. پردازنده ای با معماری 5
+                    نانومتری و متشکل از 6
+                    هسته (2 هسته قدرتمند‌تر به‌همراه 4 هسته با کارایی معمولی و صرفه انرژی کمتر). برای GPU یا همان
+                    پردازنده گرافیکی نیست،
+                    پردازنده اختصاصی 4 هسته‌ای در نظر گرفته شده است. با توجه به نتایج بنچمارک و تست های انجام شده باید
+                    بگوییم که هیچ بازی در
+                    دنیا وجود ندارد که آیفون 13 با بهره بردن از چنین پردازنده قدرتمندی، توانایی اجرا آن را نداشته
+                    باشد. البته لازم به ذکر
+                    است که این گوشی توانایی اجرای بازی های سنگینی همچون کال‌آ‌ف‌دیوتی موبایل و آسفالت 9 را در بالاتری
+                    تنظیمات گرافیکی خواهد
+                    داشت. از طرفی معماری 5 نانومتری این پردازنده نیز سبب شده تا به‌نسبت پردازنده‌هایی با معماری 7 و 10
+                    نانومتری مصرف انرژی
+                    کمتری داشته باشد و در نهایت طول عمر مفید طولانی‌تری به ازای هر بار شارژ 100 درصدی ارائه کند. آیفون
+                    13 در سه مدل با
+                    حافظه‌های داخلی 128،256 و 512 گیگابایت روانه بازار شده است. در مقایسه با آیفون 12، همانطور که
+                    می‌بینیم دیگر خبری از
+                    حافظه داخلی 64 گیگابایتی نیست و در عوض، آیفون 13 به حافظه داخلی 512 گیگابایت مجهز شده است (آیفون
+                    12 به حافظه داخلی 512
+                    گیگابایت مجهز نشده بود). دربخش میزان ظرفیت باتری نیز همانند هر سال، اپل هیچ حرفی از میزان طرفیت
+                    باتری در نظر گرفته شده
+                    برای این گوشی‌هوشمند چیزی نگفته است. اما به گفته اپل، آیفون 13 توانایی ارائه طول عمر مفید بهتری به
+                    ازای هر بار شارژ 100
+                    درصدی به‌نسبت آیفون 12 دارد. حضور پردازنده‌ای با معماری 5 نانومتری و تکنولوژی جدید‌تر این پردازنده
+                    به نسبت پردازنده ‌A14
+                    بایونیک، صرفه انرژی به‌مراتب کمتری را خواهد داشت.</p>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center">
+                  <img class="img-fluid my-3" src="../assets/img/106.jpg" alt="">
+                </div>
+                <div class="col-sm-12">
+                  <img class="img-fluid" src="../assets/img/107.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="container mb-3">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h5 class="my-4">کدام گوشی موبایل آیفون برای شما مناسب است؟
+                  </h5>
+                </div>
+                <div class="col-sm-12">
+                  <img class="img-fluid" src="../assets/img/108.jpg" alt="">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane custom-tab-pane-product-details" id="contact" role="tabpanel"
+            aria-labelledby="contact-tab">
+            <h5 class="p-3"><span class="border-bottom border-3">مشخصات فنی</span></h5>
+            <ul class="nav flex-column">
+              <p id="p">مشخصات</p>
+              <li class="nav-item d-flex mb-4">
+                <div class="key mr-3">
+                  <p>ابعاد</p>
+                </div>
+                <div class="value">
+                  <p>146.7x71.5x7.65</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>وزن</p>
+                </div>
+                <div class="value">
+                  <p>174 گرم</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3 text-nowrap">
+                <div class="key mr-3">
+                  <p>بازه‌ی اندازه صفحه نمایش
+                  </p>
+                </div>
+                <div class="value">
+                  <p>۶.۰ اینچ و بزرگتر</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>توضیحات سیم کارت</p>
+                </div>
+                <div class="value">
+                  <p>سایز نانو (۸.۸ × ۱۲.۳ میلی‌متر)</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>اندازه</p>
+                </div>
+                <div class="value">
+                  <p>۶.۱ اینچ</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>ساختار بدنه</p>
+                </div>
+                <div class="value">
+                  <p>قاب جلویی و پشتی از جنس شیشه فریم از جنس آلومینیومی صفحه‌نمایش با شیشه مقاوم در برابر خط‌وخش با
+                    پوشش Gorilla Glass
+                    سرامیکی دارای استاندارد IP۶۸ (مقاومت در برابر نفوذ آب، گِل، گرد و خاک) دارای مقاومت تا ۳۰ دقیقه در
+                    آب تا عمق ۶ متر</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>ویژگی‌های خاص</p>
+                </div>
+                <div class="value">
+                  <p>مقاوم در برابر آب
+                  </p>
+                  <p>دارای بدنه مقاوم
+                  </p>
+                  <p>مناسب عکاسی
+                  </p>
+                  <p>مناسب بازی
+                  </p>
+                  <p>مجهز به حس‌گر تشخیص چهره
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>رزولوشن</p>
+                </div>
+                <div class="value">
+                  <p>۱۱۷۰×۲۵۳۲</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>تراکم پیکسلی</p>
+                </div>
+                <div class="value">
+                  <p>۴۶۰ پیکسل بر اینچ</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3 text-nowrap">
+                <div class="key mr-3">
+                  <p>تعداد سیم کارت</p>
+                </div>
+                <div class="value">
+                  <p>دو عدد</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3 text-nowrap">
+                <div class="key mr-3">
+                  <p>نسبت صفحه‌نمایش به بدنه</p>
+                </div>
+                <div class="value">
+                  <p>86</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>زمان معرفی</p>
+                </div>
+                <div class="value">
+                  <p>۱۴ سپتامبر ۲۰۲۱
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>نسبت تصویر
+                  </p>
+                </div>
+                <div class="value">
+                  <p>۱۹.۵:۹
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>محافظت</p>
+                </div>
+                <div class="value">
+                  <p>Scratch-Resistant Ceramic Glass
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>مدل</p>
+                </div>
+                <div class="value">
+                  <p>iPhone ۱۳ CH</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>سایر قابلیت‌ها
+                  </p>
+                </div>
+                <div class="value">
+                  <p>شیشه سرامیکی مقاوم در برابر خراش، پوشش اولئوفوبیک طیف وسیع رنگ True-tone Super Retina XDR OLED
+                    HDR۱۰ Dolby Vision ۸۰۰
+                    nits (typ) ۱۲۰۰ nits (peak) Siri natural language commands and dictation Ultra Wideband (UWB)
+                    support
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>تراشه</p>
+                </div>
+                <div class="value">
+                  <p>Apple A۱۵ Bionic (۵ nm) Chipset
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>پردازنده‌ی مرکزی
+                  </p>
+                </div>
+                <div class="value">
+                  <p>۲x GHz Avalanche + ۴x GHz Blizzard
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>نوع پردازنده</p>
+                </div>
+                <div class="value">
+                  <p>۶۴ بیتی
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3 text-nowrap">
+                <div class="key mr-3">
+                  <p>فرکانس پردازنده‌ی مرکزی
+                  </p>
+                </div>
+                <div class="value">
+                  <p>۳.۳۲ - ۱.۸۲ گیگاهرتز
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>پردازنده‌ی گرافیکی</p>
+                </div>
+                <div class="value">
+                  <p>Apple GPU ۴-core graphics
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>مقدار RAM
+                  </p>
+                </div>
+                <div class="value">
+                  <p>چهار گیگابایت
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>قابلیت‌های دوربین
+                  </p>
+                </div>
+                <div class="value">
+                  <p>دارای دو حسگر در پشت گوشی | دو حسگر ۱۲ + ۱۲ مگاپیکسل - حسگر اول از نوع عریض (Wide) با رزولوشن ۱۲
+                    مگاپیکسل، دریچه‌ی
+                    دیافراگم f/۱.۶، فاصله کانونی لنز ۲۶ میلی‌متر (Focal Length ۲۶ mm)، ثبت تصاویر با پیکسل‎هایی به سایز
+                    ۱.۷ میکرومتر (۱.۷µm
+                    Pixel Size)، همراه با فناوری فوکوس اتوماتیک (dual pixel PDAF) و دارای سنسور لرزشگیر تصاویر
+                    (sensor-shift stabilization)
+                    - حسگر دوم از نوع فوق‌عریض (Ultrawide) با رزولوشن ۱۲ مگاپیکسل، دریچه دیافراگم f/۲.۴، زاویه دید ۱۲۰
+                    درجه، فاصله کانونی
+                    لنز ۱۳ میلی‌متر (Focal Length ۱۳ mm) HDR (photo/panorama) قابلیت عکاسی پانوراما (Panorama) قابلیت
+                    عکاسی HDR
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3 text-nowrap">
+                <div class="key mr-3">
+                  <p><a href="#" class="popovers text-decoration-none text-dark" data-toggle="popover"
+                      title="OS یا سیستم عامل یا operating system" data-placement="top"
+                      data-content="بخش نرم افزاری گوشی که از طریق آن با سخت افزار ارتباط برقرار میشود و برنامه ها کار میکند">سیستم
+                      عامل</a>
+                  </p>
+                </div>
+                <div class="value">
+                  <p>iOS</p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3 text-nowrap">
+                <div class="key mr-3">
+                  <p>نسخه سیستم عامل
+                  </p>
+                </div>
+                <div class="value">
+                  <p>iOS ۱۵
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>حس‌گرها</p>
+                </div>
+                <div class="value">
+                  <p>قطب‌نما (Compass)
+                  </p>
+                  <p>شتاب‌سنج (Accelerometer)
+                  </p>
+                  <p>مجاورت (Proximity)
+                  </p>
+                  <p>فشارسنج (Barometer)
+                  </p>
+                  <p>ژیروسکوپ (Gyro)
+                  </p>
+                  <p>تشخیص چهره بیومتریک (Face ID)
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item d-flex mb-3">
+                <div class="key mr-3">
+                  <p>مشخصات باتری
+                  </p>
+                </div>
+                <div class="value">
+                  <p>باتری لیتیوم پلیمر با میزان ظرفیت ۳۲۴۰ قابلیت شارژ سریع با توان ۲۳ وات دارای فناوری USB Power
+                    Delivery ۲.۰ دارای قابلیت
+                    شارژ بی‌سیم (وایرلس) با توان ۱۵ وات (MagSafe wireless charging ۱۵W) دارای قابلیت شارژ سریع بی‌سیم
+                    (وایرلس) Qi magnetic
+                    با توان ۷.۵ وات شارژ شدن تا ۵۰ درصد در ۳۰ دقیقه پخش مداوم موزیک با شارژ ۱۰۰ درصد باتری تا ۵۵ ساعت
+                    پخش مداوم مالتی‌مدیا
+                    با شارژ ۱۰۰ درصد باتری تا ۱۷ ساعت ۲.۵ ساعت شارژ بیشتر نسبت به نسخه ۱۲
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="comments" role="tabpanel">
+            <div class="container my-3 mx-2">
+              <div class="row">
+                <div class="col-sm-12 col-md-5">
+                  <div class="product-progress-wrapper py-2">
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">گارانتی</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">کیفیت و کارآیی</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">ابعاد یا سایز</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">قیمت و ارزش خرید</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="m-3 product-quality-rate">
+                      <p class="mb-3">شباهت یا مغابرت</p>
+                      <div class="progress" style="height: 3px;">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-7">
+                  <div class="add-comments">
+                    <p class="mb-3">شما هم میتوانید در مورد این کالا نظر بدهید.</p>
+                    <p>برای ثبت نظر ابتدا لازم است تا وارد حساب کاربری خود شوید.اگر این محصول را قبلا از سایت ما خریداری
+                      کرده باشید، نظر شما به عنوان مالک محصول ثبت خواهد شد.</p>
+                    <a href="#" class="btn btn-primary d-block mt-5"><i class="fas fa-sign-in-alt"></i> ورود/ثبت نام</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-sm-12 col-md-3">
+                  <div class="media custom-media-product">
+                    <div class="user-details">
+                      <img class="rounded-circle mr-3" width="80" height="80" src="../assets/img/linus.webp"
+                        alt="Generic placeholder image">
+                      <h5 class="mt-0">لینوس توروالدز <span class="badge badge-success" style="font-size: 10px;">
+                          خریدار</span>
+                      </h5>
+                      <div><span class="badge badge-primary text-nowrap">خرید این محصول را پیشنهاد میکنم</span><i
+                          class="far fa-thumbs-up text-primary" style="vertical-align: -3px;"></i></div>
+                      <div style="font-size: 15px;">رنگ : <i class="fa-solid fa-circle"></i> مشکی</div>
+                      <span style="font-size: 15px;">فروشنده : <i class="fa-solid fa-store"></i> اپل استور</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                  <div class="media-body">
+                    <p class="border-bottom pb-2">از خریدم رضایت کامل دارم و محصولی بسیار با کیفیت از برندی معتبر می
+                      باشد.
+                    </p>
+                    <ul class="nav flex-column custom-advantage-disadvantage">
+                      <span class="text-success mt-3">نقاط قوت</span>
+                      <li class="nav-item">
+                        <i class="fa-solid fa-plus" style="color: #00a331;"></i>
+                        قیمت مناسب
+                      </li>
+                      <li class="nav-item">
+                        <i class="fa-solid fa-plus" style="color: #00a331;"></i>
+                        کیفیت بالا
+                      </li>
+                    </ul>
+                    <ul class="nav flex-column custom-advantage-disadvantage">
+                      <span class="text-danger mt-3">نقاط ضعف</span>
+                      <li class="nav-item mb-3 border-bottom pb-3">
+                        <i class="fa-solid fa-minus" style="color: #ff0000;"></i> عدم وجود گارانتی معتبر
+                      </li>
+                    </ul>
+                    <p>آیا این نظر برای شما مفید بود؟ <span class="badge badge-success pr-3 ml-3">بله 10 <i
+                          class="fa-solid fa-thumbs-up"></i></span><span class="badge badge-danger pr-3">خیر 3 <i
+                          class="fa-solid fa-thumbs-down"></i></span></p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="row mt-4">
+                <div class="col-sm-12 col-md-3">
+                  <div class="media custom-media-product">
+                    <div class="user-details">
+                      <img class="rounded-circle mr-3" width="80" height="80" src="../assets/img/dennis.jpg"
+                        alt="Generic placeholder image">
+                      <h5 class="mt-0">دنیس ریچی <span class="badge badge-success" style="font-size: 10px;">
+                          خریدار</span>
+                      </h5>
+                      <div><span class="badge badge-danger">خرید این محصول را پیشنهاد نمیکنم</span><i
+                          class="far fa-thumbs-down text-danger" style="vertical-align: -3px;"></i></div>
+                      <div style="font-size: 15px;">رنگ : <i class="fa-solid fa-circle" style="color: #fad900;"></i>
+                        طلایی</div>
+                      <span style="font-size: 15px;">فروشنده : <i class="fa-solid fa-store"></i> اپل استور</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                  <div class="media-body">
+                    <p class="border-bottom pb-2">از خریدم راضی نیستم کیفیت با توجه به قیمت آن طور که فکر میکردم نبود
+                    </p>
+                    <ul class="nav flex-column custom-advantage-disadvantage">
+                      <span class="text-success mt-3">نقاط قوت</span>
+                      <li class="nav-item">
+                        <i class="fa-solid fa-plus" style="color: #00a331;"></i>
+                        صفحه نمایش با کیفیت
+                      </li>
+                      <li class="nav-item">
+                        <i class="fa-solid fa-plus" style="color: #00a331;"></i>
+                        دوربین خوب
+                      </li>
+                    </ul>
+                    <ul class="nav flex-column custom-advantage-disadvantage">
+                      <span class="text-danger mt-3">نقاط ضعف</span>
+                      <li class="nav-item">
+                        <i class="fa-solid fa-minus" style="color: #ff0000;"></i> عدم وجود گارانتی معتبر
+                      </li>
+                      <li class="nav-item mb-3 border-bottom pb-3">
+                        <i class="fa-solid fa-minus" style="color: #ff0000;"></i> کیفیت پایین با توجه به قیمت
+                      </li>
+                    </ul>
+                    <p>آیا این نظر برای شما مفید بود؟ <span class="badge badge-success pr-3 ml-3">بله 10 <i
+                          class="fa-solid fa-thumbs-up"></i></span><span class="badge badge-danger pr-3">خیر 3 <i
+                          class="fa-solid fa-thumbs-down"></i></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container add-comments">
+              <p class="bg-success text-white p-2 rounded"><i class="fa-regular fa-comments mr-2"></i> دیدگاه خود
+                را ارسال نمایید
+              </p>
+              <div class="row">
+                <form class="w-100 mt-3">
+                  <div class="form-row">
+                    <div class="form-group col-sm-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="نام و نام خانوادگی">
+                    </div>
+                    <div class="form-group col-sm-12 col-md-6">
+                      <input type="email" class="form-control" placeholder="ایمیل">
+                    </div>
+                    <div class="form-group col-sm-12 col-md-12">
+                      <input type="password" class="form-control mb-3" placeholder="کلمه عبور">
+                      <textarea name="" class="form-control" id="" cols="30" rows="10"
+                        placeholder="دیدگاه شما"></textarea>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary my-2">ارسال دیدگاه</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end Product-page -->
+
+  <!--start mobile offers-->
+  <section class="container mt-5">
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="product-section-title position-absolute">محصولات مرتبط</p>
+        <div class="owl-carousel bg-white position-relative mt-5">
+          <a class="text-decoration-none" href="#">
+            <div class="p-3">
+              <div class="card custom-card">
+                <img class="p-img align-self-center mt-3" src="../assets/img/1.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">
+                  <p class="p-title mt-2">هدست بی سیم سامسونگ A47</p>
+                  <p class="p-price mt-2 text-primary"><s class="text-danger">1.500.000 تومان</s> 975.000 تومان<span
+                      class="badge badge-pill badge-danger text-light mt-1">35%</span></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="text-decoration-none" href="#">
+            <div class="p-3">
+              <div class="card custom-card">
+                <img class="p-img align-self-center mt-3" src="../assets/img/4.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">
+                  <p class="p-title mt-2">هدست بی سیم سامسونگ A47</p>
+                  <p class="p-price mt-2 text-primary"><s class="text-danger">1.500.000 تومان</s> 975.000 تومان<span
+                      class="badge badge-pill badge-danger text-light mt-1">35%</span></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="text-decoration-none" href="#">
+            <div class="p-3">
+              <div class="card custom-card">
+                <img class="p-img align-self-center mt-3" src="../assets/img/17.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">
+                  <p class="p-title mt-2">هدست بی سیم سامسونگ A47</p>
+                  <p class="p-price mt-2 text-primary"><s class="text-danger">1.500.000 تومان</s> 975.000 تومان<span
+                      class="badge badge-pill badge-danger text-light mt-1">35%</span></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="text-decoration-none" href="#">
+            <div class="p-3">
+              <div class="card custom-card">
+                <img class="p-img align-self-center mt-3" src="../assets/img/42.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">
+                  <p class="p-title mt-2">هدست بی سیم سامسونگ A47</p>
+                  <p class="p-price mt-2 text-primary"><s class="text-danger">1.500.000 تومان</s> 975.000 تومان<span
+                      class="badge badge-pill badge-danger text-light mt-1">35%</span></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="text-decoration-none" href="#">
+            <div class="p-3">
+              <div class="card custom-card">
+                <img class="p-img align-self-center mt-3" src="../assets/img/43.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">
+                  <p class="p-title mt-2">هدست بی سیم سامسونگ A47</p>
+                  <p class="p-price mt-2 text-primary"><s class="text-danger">1.500.000 تومان</s> 975.000 تومان<span
+                      class="badge badge-pill badge-danger text-light mt-1">35%</span></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </a>
+          <a class="text-decoration-none" href="#">
+            <div class="p-3">
+              <div class="card custom-card">
+                <img class="p-img align-self-center mt-3" src="../assets/img/44.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">
+                  <p class="p-title mt-2">هدست بی سیم سامسونگ A47</p>
+                  <p class="p-price mt-2 text-primary"><s class="text-danger">1.500.000 تومان</s> 975.000 تومان<span
+                      class="badge badge-pill badge-danger text-light mt-1">35%</span></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="text-decoration-none" href="#">
+            <div class="p-3">
+              <div class="card custom-card">
+                <img class="p-img align-self-center mt-3" src="../assets/img/45.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">
+                  <p class="p-title mt-2">هدست بی سیم سامسونگ A47</p>
+                  <p class="p-price mt-2 text-primary"><s class="text-danger">1.500.000 تومان</s> 975.000 تومان<span
+                      class="badge badge-pill badge-danger text-light mt-1">35%</span></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="text-decoration-none" href="#">
+            <div class="p-3">
+              <div class="card custom-card">
+                <img class="p-img align-self-center mt-3" src="../assets/img/46.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">
+                  <p class="p-title mt-2">هدست بی سیم سامسونگ A47</p>
+                  <p class="p-price mt-2 text-primary"><s class="text-danger">1.500.000 تومان</s> 975.000 تومان<span
+                      class="badge badge-pill badge-danger text-light mt-1">35%</span></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end mobile offers-->
+
+
+  <!-- start Footer -->
+  <footer class="container-fluid bg-white">
+    <div class="row">
+      <section class="container news-letter">
+        <div class="row py-4 bg-white shadow-sm">
+          <div class="col-sm-12 col-md-3 news-letter-s1 d-flex justify-content-center flex-column mb-sm-3">
+            <h6 class="mb-3">عضویت در خبرنامه</h6>
+            <p>باعضویت در خبرنامه از <span class="text-danger">30% تخفیف</span> ما بهره مند شوید</p>
+          </div>
+          <div class="col-sm-12 col-md-4 news-letter-s2 d-flex justify-content-center mb-sm-3">
+            <p><strong class="text-success">به +10.000 مشترک ما</strong> بپیوندید و از تخفیف های ویژه هفتگی مخصوص
+              مشترکین خبرنامه بهره مند
+              شوید
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-5 news-letter-s3 d-flex justify-content-center align-items-center mb-sm-3">
+            <div class="input-group">
+              <input type="text" class="form-control input-news-letter" placeholder="آدرس ایمیل">
+              <div class="input-group-append">
+                <button class="btn btn-primary px-4" type="button">اشتراک</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="container main-section-footer">
+        <div class="row my-5">
+          <div class="col-6 col-sm-6 col-md-3 mb-3">
+            <h5>اطلاعات</h5>
+            <ul class="nav flex-column footer-nav-custom">
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">درباره ما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">نحوه ارسال</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">محصولات جدید</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">محصولات منتخب</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">حساب کاربری</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">سابقه خرید</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 mb-3">
+            <h5>خدمات مشتریان</h5>
+            <ul class="nav flex-column footer-nav-custom">
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">حساب کاربری</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">سبد خرید</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">علاقه مندی ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">کاهش قیمت ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">سابقه خرید</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">سفارشات بین المللی</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 mb-3">
+            <h5>حساب کاربری</h5>
+            <ul class="nav flex-column footer-nav-custom">
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">نقشه سایت</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">نقد و بررسی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">نحوه ارسال</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">محصولات ویژه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">خرید اقساطی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="#">ویژه کارمندان دولت</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 mb-3">
+            <h5>تماس با ما</h5>
+            <div class="d-flex align-items-center justify-content-start">
+              <div class="support-rules mt-2"><i class="fas fa-headset float-left mr-2"></i></div>
+              <div class="tel-support mt-2">
+                <p>پشتیبانی 24/7</p>
+                <a href="tel:0211234567" class="text-decoration-none">0211234567</a>
+              </div>
+
+            </div>
+            <div class="social-icon mt-3" dir="ltr">
+              <ul class="nav d-flex justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link telegram" href="#"><i class="fab fa-telegram-plane"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link instagram" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link twitter" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link rss" href="#"><i class="fas fa-rss"></i></a>
+                </li>
+              </ul>
+              <p class="text-center mt-3">تهران - خیابان الف - کوچه یکم - پلاک 11</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </footer>
+  <!-- end Footer -->
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.rtlcss.com/bootstrap/v4.0.0/js/bootstrap.min.js"
+    integrity="sha384-54+cucJ4QbVb99v8dcttx/0JRx4FHMmhOWi4W+xrXpKcsKQodCBwAvu3xxkZAwsH"
+    crossorigin="anonymous"></script>
+  <script src="../JS/owl.carousel.min.js"></script>
+  <script src="../JS/P2.js"></script>
+  <script src="../JS/zoomy.js"></script>
+  <script src="../JS/popover.js"></script>
+  <script>
+    var urls = [
+      '../assets/img/17.jpg',
+      '../assets/img/200.jpg',
+      '../assets/img/201.jpg',
+      '../assets/img/202.jpg',
+      '../assets/img/203.jpg',
+    ];
+    var options = {
+      // thumbLeft:false,
+      //  thumbRight:false,
+      thumbHide: false,
+      width: 700,
+      height: 400,
+    };
+    $('#el').zoomy(urls, options);
+  </script>
+</body>
+
+</html>

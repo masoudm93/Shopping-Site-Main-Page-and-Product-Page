@@ -1,0 +1,41 @@
+@import "_P1.css";
+@import "_P2.css";
+@import "_P3.css";
+@import "_Product-page.css";
+
+@font-face {
+  font-family: Vazir-Medium;
+  src: url("../fonts/Vazir-Medium.eot") format("eot"),
+    url("../fonts/Vazir-Medium.woff") format("woff"),
+    url("../fonts/Vazir-Medium.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazir-Medium;
+}
+
+body {
+  direction: rtl;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zoom-mousemove {
+  border: none !important;
+}

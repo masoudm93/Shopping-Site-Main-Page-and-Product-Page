@@ -1,0 +1,3 @@
+$(".popovers").popover({
+  trigger: "hover",
+});
